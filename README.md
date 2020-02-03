@@ -7,7 +7,7 @@ Um painel dashboard para utilização do VueJs com Docker
 1. Clonar o projeto
 2. Acessar o repositório do projeto e rodar o comando pelo terminal
 ```
-docker build -t dockerize-vue .
+docker build -t my-app:dev .
 ```
 3. Depois de já baixado as dependências da imagens e do node_modules deve rodar o seguinte comando
 ```docker-compose up -d```
