@@ -19,3 +19,4 @@ https://medium.com/@jwdobken/vue-with-docker-initialize-develop-and-build-51fad2
 [VueJs - Br](https://br.vuejs.org/)
 <br>
 [vue-light-bootstrap-dashboard](https://github.com/creativetimofficial/vue-light-bootstrap-dashboard)
+[Fonte do Dockerfile](https://mherman.org/blog/dockerizing-a-vue-app/)
