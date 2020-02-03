@@ -1,11 +1,14 @@
-version: '3.7'
+version: '3'
+
 services:
-  frontend:
+
+  my-app:
+    container_name: my-app
     build:
       context: .
-      target: 'develop-stage'
-    ports:
-    - '8080:8080'
+      dockerfile: Dockerfile
     volumes:
-    - '.:/app'
-    command: /bin/sh -c "yarn serve"
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8081:8080'

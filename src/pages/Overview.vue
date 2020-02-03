@@ -8,7 +8,7 @@
               <i class="nc-icon nc-chart text-warning"></i>
             </div>
             <div slot="content">
-              <p class="card-category">Capacity</p>
+              <p class="card-category">Capacidade</p>
               <h4 class="card-title">105GB</h4>
             </div>
             <div slot="footer">

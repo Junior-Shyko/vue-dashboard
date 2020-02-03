@@ -7,7 +7,7 @@
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
-              <h4 class="card-title">Agentes</h4>
+              <h4 class="card-title">Striped Table with Hover</h4>
               <p class="card-category">Here is a subtitle for this table</p>
             </template>
             <l-table class="table-hover table-striped"
@@ -56,11 +56,10 @@
 <script>
   import LTable from 'src/components/Table.vue'
   import Card from 'src/components/Cards/Card.vue'
-  import axios from 'axios'
   const tableColumns = ['Id', 'Name', 'Salary', 'Country', 'City']
   const tableData = [{
     id: 1,
-    name: 'Junior Oliveira',
+    name: 'Dakota Rice',
     salary: '$36.738',
     country: 'Niger',
     city: 'Oud-Turnhout'
@@ -109,15 +108,6 @@
           data: [...tableData]
         }
       }
-    },
-    created() {
-      console.log(tableData)
-    },
-    mounted () {
-      console.log('table')
-      axios
-        .get('http://10.17.0.135:85/api/agent/find?@select=id,name,subsite.name&@limit=5')
-        .then(response => ( console.log(response.data), this.table1.data = response.data))
     }
   }
 </script>

@@ -1,6 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-a8c95b281d7a262177f21699092e1a8f159c5b6c refs/remotes/origin/bs4
-f58caa63001b5f89a0cf2927310a5eafb51808a9 refs/remotes/origin/dependabot/npm_and_yarn/lodash-4.17.15
-bde34cccdd93e8008a8c80cc4fcb29b3e33cc975 refs/remotes/origin/gh-pages
-658380ad7a277d341e38c994d662f3475c1584f5 refs/remotes/origin/live-demo
-f748f3f062ae9594012a41f26393494079ea5733 refs/remotes/origin/master
